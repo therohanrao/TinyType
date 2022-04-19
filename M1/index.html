@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  width: 2cm;
+  height: 2cm;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+div.scrollmenu button {
+  display: inline-block;
+  color: white;
+  background-color: #333;
+  text-align: center;
+  /*padding: .20cm;*/
+  text-decoration: none;
+  width: .5cm;
+  height: .5cm;
+  top: 100%;
+}
+
+div.scrollmenu button:hover {
+    background-color: #777;
+}
+
+div.btns {
+  display: block;
+}
+
+input {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+div.utilities {
+  position: sticky !important;
+  top: 0%;
+  left: 0%;
+
+}
+
+div.utilities button{ 
+  text-align: center;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: .25cm;
+  width: 1cm;
+  height: .5cm;
+}
+
+div.utilities button:hover {
+    background-color: #777;
+}
+
+</style>
+
+<script src="main.js"></script>
+
+</head>
+<body>
+
+<input id="buffer"/>
+
+
+<div class="scrollmenu">
+    <div class="utilities">
+        <button id="space">space</button>
+        <button id="back">back</button>
+    </div>
+    <div class = "btns"> 
+        <button id="a">a</button>
+        <button id="c">c</button>
+        <button id="e">e</button>
+        <button id="g">g</button>
+        <button id="i">i</button>
+        <button id="k">k</button>
+        <button id="m">m</button>
+        <button id="o">o</button>
+        <button id="q">q</button>
+        <button id="s">s</button>
+        <button id="u">u</button>
+        <button id="w">w</button>
+        <button id="y">y</button>
+    </div>
+
+    <div class = "btns"> 
+        <button id="b">b</button>
+        <button id="d">d</button>
+        <button id="f">f</button>
+        <button id="h">h</button>
+        <button id="j">j</button>
+        <button id="l">l</button>
+        <button id="n">n</button>
+        <button id="p">p</button>
+        <button id="r">r</button>
+        <button id="t">t</button>
+        <button id="v">v</button>
+        <button id="x">x</button>
+        <button id="z">z</button>
+    </div>
+
+</div>
+
+
+</body>
+</html>
